@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 12px 0;
+        }
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 24px;
+            font-size: 18px;
+            border-radius: 4px;
+            margin: 0 6px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .navbar a:hover {
+            background: #444;
+            color: #ffd700;
+        }
+        .about-container {
+            max-width: 700px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px 50px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 24px;
+        }
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>This is bout file</h1>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quos tempora architecto vero quasi amet magni in laboriosam, velit, exercitationem perspiciatis sunt fuga. Atque odio nam quae vitae voluptatum. Itaque.</p>
     
 </body>
-</html>
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <div class="about-container">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quos tempora architecto vero quasi amet magni in laboriosam, velit, exercitationem perspiciatis sunt fuga. Atque odio nam quae vitae voluptatum. Itaque.</p>
+    </div>
